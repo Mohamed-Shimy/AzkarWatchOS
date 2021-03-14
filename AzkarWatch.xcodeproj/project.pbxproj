@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98ED21F25FE42390040419D /* AzkarWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D98ED21E25FE42390040419D /* AzkarWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D98ED22425FE423E0040419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED22325FE423E0040419D /* Assets.xcassets */; };
+		D98ED22B25FE423E0040419D /* AzkarWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D98ED22A25FE423E0040419D /* AzkarWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D98ED23025FE423E0040419D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED22F25FE423E0040419D /* ContentView.swift */; };
+		D98ED23225FE423E0040419D /* AzkarWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED23125FE423E0040419D /* AzkarWatchApp.swift */; };
+		D98ED23425FE423E0040419D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98ED23325FE423E0040419D /* ComplicationController.swift */; };
+		D98ED23625FE42420040419D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED23525FE42420040419D /* Assets.xcassets */; };
+		D98ED23925FE42420040419D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98ED23825FE42420040419D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D98ED22025FE42390040419D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98ED21425FE42390040419D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98ED21D25FE42390040419D;
+			remoteInfo = "AzkarWatch WatchKit App";
+		};
+		D98ED22C25FE423E0040419D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98ED21425FE42390040419D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98ED22925FE423E0040419D;
+			remoteInfo = "AzkarWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D98ED24025FE42420040419D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D98ED22B25FE423E0040419D /* AzkarWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98ED24425FE42420040419D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D98ED21F25FE42390040419D /* AzkarWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D98ED21A25FE42390040419D /* AzkarWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzkarWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98ED21E25FE42390040419D /* AzkarWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AzkarWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98ED22325FE423E0040419D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98ED22525FE423E0040419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98ED22A25FE423E0040419D /* AzkarWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AzkarWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98ED22F25FE423E0040419D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D98ED23125FE423E0040419D /* AzkarWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarWatchApp.swift; sourceTree = "<group>"; };
+		D98ED23325FE423E0040419D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D98ED23525FE42420040419D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98ED23825FE42420040419D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D98ED23A25FE42420040419D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98ED22725FE423E0040419D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D98ED21325FE42390040419D = {
+			isa = PBXGroup;
+			children = (
+				D98ED22225FE42390040419D /* AzkarWatch WatchKit App */,
+				D98ED22E25FE423E0040419D /* AzkarWatch WatchKit Extension */,
+				D98ED21B25FE42390040419D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98ED21B25FE42390040419D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED21A25FE42390040419D /* AzkarWatch.app */,
+				D98ED21E25FE42390040419D /* AzkarWatch WatchKit App.app */,
+				D98ED22A25FE423E0040419D /* AzkarWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98ED22225FE42390040419D /* AzkarWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED22325FE423E0040419D /* Assets.xcassets */,
+				D98ED22525FE423E0040419D /* Info.plist */,
+			);
+			path = "AzkarWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D98ED22E25FE423E0040419D /* AzkarWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED22F25FE423E0040419D /* ContentView.swift */,
+				D98ED23125FE423E0040419D /* AzkarWatchApp.swift */,
+				D98ED23325FE423E0040419D /* ComplicationController.swift */,
+				D98ED23525FE42420040419D /* Assets.xcassets */,
+				D98ED23A25FE42420040419D /* Info.plist */,
+				D98ED23725FE42420040419D /* Preview Content */,
+			);
+			path = "AzkarWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D98ED23725FE42420040419D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D98ED23825FE42420040419D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98ED21925FE42390040419D /* AzkarWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98ED24525FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch" */;
+			buildPhases = (
+				D98ED21825FE42390040419D /* Resources */,
+				D98ED24425FE42420040419D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98ED22125FE42390040419D /* PBXTargetDependency */,
+			);
+			name = AzkarWatch;
+			productName = AzkarWatch;
+			productReference = D98ED21A25FE42390040419D /* AzkarWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D98ED21D25FE42390040419D /* AzkarWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98ED24125FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch WatchKit App" */;
+			buildPhases = (
+				D98ED21C25FE42390040419D /* Resources */,
+				D98ED24025FE42420040419D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98ED22D25FE423E0040419D /* PBXTargetDependency */,
+			);
+			name = "AzkarWatch WatchKit App";
+			productName = "AzkarWatch WatchKit App";
+			productReference = D98ED21E25FE42390040419D /* AzkarWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D98ED22925FE423E0040419D /* AzkarWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98ED23D25FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch WatchKit Extension" */;
+			buildPhases = (
+				D98ED22625FE423E0040419D /* Sources */,
+				D98ED22725FE423E0040419D /* Frameworks */,
+				D98ED22825FE423E0040419D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AzkarWatch WatchKit Extension";
+			productName = "AzkarWatch WatchKit Extension";
+			productReference = D98ED22A25FE423E0040419D /* AzkarWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98ED21425FE42390040419D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D98ED21925FE42390040419D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D98ED21D25FE42390040419D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D98ED22925FE423E0040419D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D98ED21725FE42390040419D /* Build configuration list for PBXProject "AzkarWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98ED21325FE42390040419D;
+			productRefGroup = D98ED21B25FE42390040419D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98ED21925FE42390040419D /* AzkarWatch */,
+				D98ED21D25FE42390040419D /* AzkarWatch WatchKit App */,
+				D98ED22925FE423E0040419D /* AzkarWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98ED21825FE42390040419D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98ED21C25FE42390040419D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98ED22425FE423E0040419D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98ED22825FE423E0040419D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98ED23925FE42420040419D /* Preview Assets.xcassets in Resources */,
+				D98ED23625FE42420040419D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98ED22625FE423E0040419D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98ED23025FE423E0040419D /* ContentView.swift in Sources */,
+				D98ED23225FE423E0040419D /* AzkarWatchApp.swift in Sources */,
+				D98ED23425FE423E0040419D /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98ED22125FE42390040419D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98ED21D25FE42390040419D /* AzkarWatch WatchKit App */;
+			targetProxy = D98ED22025FE42390040419D /* PBXContainerItemProxy */;
+		};
+		D98ED22D25FE423E0040419D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98ED22925FE423E0040419D /* AzkarWatch WatchKit Extension */;
+			targetProxy = D98ED22C25FE423E0040419D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D98ED23B25FE42420040419D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D98ED23C25FE42420040419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98ED23E25FE42420040419D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AzkarWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AzkarWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		D98ED23F25FE42420040419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AzkarWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AzkarWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		D98ED24225FE42420040419D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				IBSC_MODULE = AzkarWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AzkarWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		D98ED24325FE42420040419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				IBSC_MODULE = AzkarWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AzkarWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		D98ED24625FE42420040419D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D98ED24725FE42420040419D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57CN6FH4FY;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shemy.AzkarWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98ED21725FE42390040419D /* Build configuration list for PBXProject "AzkarWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98ED23B25FE42420040419D /* Debug */,
+				D98ED23C25FE42420040419D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98ED23D25FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98ED23E25FE42420040419D /* Debug */,
+				D98ED23F25FE42420040419D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98ED24125FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98ED24225FE42420040419D /* Debug */,
+				D98ED24325FE42420040419D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98ED24525FE42420040419D /* Build configuration list for PBXNativeTarget "AzkarWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98ED24625FE42420040419D /* Debug */,
+				D98ED24725FE42420040419D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98ED21425FE42390040419D /* Project object */;
+}
