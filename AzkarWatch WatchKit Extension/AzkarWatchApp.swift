@@ -8,12 +8,35 @@
 import SwiftUI
 
 @main
-struct AzkarWatchApp: App {
-    var body: some Scene {
-        WindowGroup {
-            NavigationView {
-                ContentView()
+struct AzkarWatchApp: App
+{
+    @StateObject private var azkarStore = AzkarStore()
+    @StateObject private var favoritesStore = FavoritesStore()
+    @Environment(\.scenePhase) private var scenePhase
+    
+    var body: some Scene
+    {
+        WindowGroup
+        {
+            NavigationView
+            {
+                AzkarSectionView()
             }
+            .environment(\.layoutDirection, .rightToLeft)
+            .environment(\.locale, Locale(identifier: "ar"))
+            .environment(\.managedObjectContext, favoritesStore.context)
+            .environmentObject(azkarStore)
+            .environmentObject(favoritesStore)
+        }
+        .onChange(of: scenePhase, perform: handelScenePhase)
+    }
+    
+    private func handelScenePhase(_ phase:  ScenePhase)
+    {
+        switch phase
+        {
+            case .background: PersistenceController.favorites.save()
+            default: break
         }
     }
 }
